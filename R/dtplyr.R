@@ -33,9 +33,7 @@ dt_as <- function(df) data.table::as.data.table(df)
 #' @examples
 #' df <- data.frame(a = c(1, 1, 2, 2, 3, 3), b = 1:6)
 #' dt_op(df, a > 1, sum(b), keyby = a)
-#' \dontrun{
 #' df %>% dt_op(a > 1, sum(b), keyby = a)
-#' }
 #'
 #' @export
 dt_op <- function(df, ...) dt_as(df)[...]
@@ -55,9 +53,7 @@ dt_op <- function(df, ...) dt_as(df)[...]
 #' @examples
 #' df <- data.frame(a = c(1, 1, 2, 2, 3, 3), b = 1:6)
 #' dt_agg(df, sum(b), keyby = a)
-#' \dontrun{
 #' df %>% dt_agg(sum(b), keyby = a)
-#' }
 #'
 #' @export
 dt_agg <- function(df, ...) dt_as(df)[, ...]
@@ -78,9 +74,7 @@ dt_agg <- function(df, ...) dt_as(df)[, ...]
 #' lh <- data.frame(a = 1:5, b = letters[1:5])
 #' rh <- data.frame(a = 2:4, c = letters[24:26])
 #' dt_merge(lh, rh)
-#' \dontrun{
 #' lh %>% dt_merge(rh)
-#' }
 #'
 #' @export
 dt_merge <- function(df, ...) merge(dt_as(df), ...)

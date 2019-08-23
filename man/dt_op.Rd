@@ -21,9 +21,7 @@ This makes it more natural to use with the pipe operator.
 \examples{
 df <- data.frame(a = c(1, 1, 2, 2, 3, 3), b = 1:6)
 dt_op(df, a > 1, sum(b), keyby = a)
-\dontrun{
 df \%>\% dt_op(a > 1, sum(b), keyby = a)
-}
 
 }
 \seealso{

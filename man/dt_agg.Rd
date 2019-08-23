@@ -20,9 +20,7 @@ Syntactic sugar for the common case of a dt_op with no filter.
 \examples{
 df <- data.frame(a = c(1, 1, 2, 2, 3, 3), b = 1:6)
 dt_agg(df, sum(b), keyby = a)
-\dontrun{
 df \%>\% dt_agg(sum(b), keyby = a)
-}
 
 }
 \seealso{

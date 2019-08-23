@@ -22,9 +22,7 @@ higher performance merge routine.
 lh <- data.frame(a = 1:5, b = letters[1:5])
 rh <- data.frame(a = 2:4, c = letters[24:26])
 dt_merge(lh, rh)
-\dontrun{
 lh \%>\% dt_merge(rh)
-}
 
 }
 \seealso{
