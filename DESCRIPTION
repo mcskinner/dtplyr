@@ -11,8 +11,9 @@ Description: Stop the holy war between data.table and dplyr,
     but data.table excels at performant merges and aggregations.
     These adapters give you the performance you want, when you need it,
     without sacrificing your beautiful pipelines.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: 
+Imports:
     data.table
+RoxygenNote: 6.1.1
