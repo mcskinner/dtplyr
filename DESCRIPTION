@@ -1,0 +1,16 @@
+Package: dtplyr
+Title: Adapt data.table for Use with Pipes
+Version: 0.1.0
+Authors@R:
+    person(given = "Michael",
+           family = "Skinner",
+           role = c("aut", "cre"),
+           email = "m@redbeard.ai")
+Description: Stop the holy war between data.table and dplyr,
+    you can use both. The pipe operator is best for readable code,
+    but data.table excels at performant merges and aggregations.
+    These adapters give you the performance you want, when you need it,
+    without sacrificing your beautiful pipelines.
+License: MIT
+Encoding: UTF-8
+LazyData: true
