@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/mcskinner/dtplyr.svg?branch=master)](https://travis-ci.org/mcskinner/dtplyr)
 <!-- badges: end -->
 
 The [tidyverse](https://www.tidyverse.org) has made it far easier to
